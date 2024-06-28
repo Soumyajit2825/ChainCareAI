@@ -10,21 +10,13 @@ export const columnsDataDevelopment = [
   {
     Header: "DATE",
     accessor: "date",
-  },
-  {
-    Header: "PROGRESS",
-    accessor: "progress",
-  },
+  }
 ];
 
 export const columnsDataCheck = [
   {
     Header: "NAME",
     accessor: "name",
-  },
-  {
-    Header: "PROGRESS",
-    accessor: "progress",
   },
   {
     Header: "QUANTITY",
@@ -40,10 +32,6 @@ export const columnsDataColumns = [
   {
     Header: "NAME",
     accessor: "name",
-  },
-  {
-    Header: "PROGRESS",
-    accessor: "progress",
   },
   {
     Header: "QUANTITY",
@@ -67,9 +55,5 @@ export const columnsDataComplex = [
   {
     Header: "DATE",
     accessor: "date",
-  },
-  {
-    Header: "PROGRESS",
-    accessor: "progress",
-  },
+  }
 ];

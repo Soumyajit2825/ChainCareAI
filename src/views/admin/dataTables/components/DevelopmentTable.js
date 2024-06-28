@@ -1,7 +1,6 @@
 /* eslint-disable */
 import {
   Flex,
-  Progress,
   Table,
   Tbody,
   Td,
@@ -145,25 +144,6 @@ export default function DevelopmentTable(props) {
                       <Text color={textColor} fontSize='sm' fontWeight='700'>
                         {cell.value}
                       </Text>
-                    );
-                  } else if (cell.column.Header === "PROGRESS") {
-                    data = (
-                      <Flex align='center'>
-                        <Text
-                          me='10px'
-                          color={textColor}
-                          fontSize='sm'
-                          fontWeight='700'>
-                          {cell.value}%
-                        </Text>
-                        <Progress
-                          variant='table'
-                          colorScheme='brandScheme'
-                          h='8px'
-                          w='63px'
-                          value={cell.value}
-                        />
-                      </Flex>
                     );
                   }
                   return (
