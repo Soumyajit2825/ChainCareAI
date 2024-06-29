@@ -35,7 +35,7 @@ export default function Conversion(props) {
         />
 
         <Text color={textColor} fontSize='lg' fontWeight='700'>
-          Tasks
+          Due Appointments
         </Text>
         <Menu ms='auto' />
       </Flex>

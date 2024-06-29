@@ -12,6 +12,18 @@ export const globalStyles = {
       800: "#190793",
       900: "#11047A",
     },
+    primary: {
+      50: '#e3f2ed',
+      100: '#c1e5db',
+      200: '#9dd8c8',
+      300: '#79cab6',
+      400: '#56bda3',
+      500: '#3da38a',
+      600: '#31816d',
+      700: '#256050',
+      800: '#184033',
+      900: '#0b2017',
+    },
     brandScheme: {
       100: "#E9E3FF",
       200: "#7551FF",
@@ -82,7 +94,7 @@ export const globalStyles = {
     global: (props) => ({
       body: {
         overflowX: "hidden",
-        bg: mode("secondaryGray.300", "navy.900")(props),
+        bg: mode('[#56bda3]', '[#9dd8c8]')(props),
         fontFamily: "DM Sans",
         letterSpacing: "-0.5px",
       },

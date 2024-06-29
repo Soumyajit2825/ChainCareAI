@@ -4,11 +4,11 @@ export const columnsDataCheck = [
     accessor: "name",
   },
   {
-    Header: "QUANTITY",
+    Header: "NUMBERS",
     accessor: "quantity",
   },
   {
-    Header: "DATE",
+    Header: "DUE DATE",
     accessor: "date",
   },
 ];

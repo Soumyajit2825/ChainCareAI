@@ -56,8 +56,8 @@ export default function UserReports() {
               }
             />
           }
-          name='Earnings'
-          value='$350.4'
+          name='Total Patients'
+          value='1000'
         />
         <MiniStatistics
           startContent={
@@ -70,17 +70,17 @@ export default function UserReports() {
               }
             />
           }
-          name='Spend this month'
-          value='$642.39'
+          name='Total Staffs'
+          value='100'
         />
-        <MiniStatistics growth='+23%' name='Sales' value='$574.34' />
+        {/* <MiniStatistics growth='+23%' name='Sales' value='$574.34' /> */}
         <MiniStatistics
           endContent={
             <Flex me='-16px' mt='10px'>
               <FormLabel htmlFor='balance'>
-                <Avatar src={Usa} />
+                {/* <Avatar src={Usa} /> */}
               </FormLabel>
-              <Select
+              {/* <Select
                 id='balance'
                 variant='mini'
                 mt='5px'
@@ -89,11 +89,11 @@ export default function UserReports() {
                 <option value='usd'>USD</option>
                 <option value='eur'>EUR</option>
                 <option value='gba'>GBA</option>
-              </Select>
+              </Select> */}
             </Flex>
           }
-          name='Your balance'
-          value='$1,000'
+          name='Total Appointments'
+          value='2500'
         />
         <MiniStatistics
           startContent={
@@ -104,8 +104,8 @@ export default function UserReports() {
               icon={<Icon w='28px' h='28px' as={MdAddTask} color='white' />}
             />
           }
-          name='New Tasks'
-          value='154'
+          name='Completed Appointments'
+          value='1500'
         />
         <MiniStatistics
           startContent={
@@ -118,8 +118,8 @@ export default function UserReports() {
               }
             />
           }
-          name='Total Projects'
-          value='2935'
+          name='Pending Appointments'
+          value='1000'
         />
       </SimpleGrid>
 

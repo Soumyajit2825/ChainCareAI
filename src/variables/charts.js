@@ -107,15 +107,15 @@ export const barChartOptionsDailyTraffic = {
 
 export const barChartDataConsumption = [
   {
-    name: "PRODUCT A",
+    name: "Age<20",
     data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
   },
   {
-    name: "PRODUCT B",
+    name: "Age>20<50",
     data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
   },
   {
-    name: "PRODUCT C",
+    name: "Age>50",
     data: [400, 370, 330, 390, 320, 350, 360, 320, 380],
   },
 ];
@@ -209,8 +209,8 @@ export const barChartOptionsConsumption = {
 };
 
 export const pieChartOptions = {
-  labels: ["Your files", "System", "Empty"],
-  colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
+  labels: ["Children", "Men", "Women"],
+  colors: ["#4318FF", "#6AD2FF", "#b3b3b3"],
   chart: {
     width: "50px",
   },
@@ -239,11 +239,11 @@ export const pieChartOptions = {
     },
   },
   fill: {
-    colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
+    colors: ["#4318FF", "#6AD2FF", "#b3b3b3"],
   },
   tooltip: {
     enabled: true,
-    theme: "dark",
+    theme: "light",
   },
 };
 
@@ -253,11 +253,11 @@ export const pieChartData = [63, 25, 12];
 
 export const lineChartDataTotalSpent = [
   {
-    name: "Revenue",
+    name: "Doctor",
     data: [50, 64, 48, 66, 49, 68],
   },
   {
-    name: "Profit",
+    name: "Patient",
     data: [30, 40, 24, 46, 20, 46],
   },
 ];

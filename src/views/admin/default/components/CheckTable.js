@@ -61,7 +61,7 @@ export default function CheckTable(props) {
           fontSize='22px'
           fontWeight='700'
           lineHeight='100%'>
-          Check Table
+          Check Appointments
         </Text>
         <Menu />
       </Flex>
@@ -108,13 +108,13 @@ export default function CheckTable(props) {
                       </Flex>
                     );
                   } 
-                  else if (cell.column.Header === "QUANTITY") {
+                  else if (cell.column.Header === "NUMBERS") {
                     data = (
                       <Text color={textColor} fontSize='sm' fontWeight='700'>
                         {cell.value}
                       </Text>
                     );
-                  } else if (cell.column.Header === "DATE") {
+                  } else if (cell.column.Header === "DUE DATE") {
                     data = (
                       <Text color={textColor} fontSize='sm' fontWeight='700'>
                         {cell.value}

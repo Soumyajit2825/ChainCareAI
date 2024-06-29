@@ -29,7 +29,7 @@ export default function DailyTraffic(props) {
               color='secondaryGray.600'
               fontSize='sm'
               fontWeight='500'>
-              Daily Traffic
+              Daily Data
             </Text>
           </Flex>
           <Flex align='end'>
@@ -38,22 +38,22 @@ export default function DailyTraffic(props) {
               fontSize='34px'
               fontWeight='700'
               lineHeight='100%'>
-              2.579
+              2579
             </Text>
             <Text
               ms='6px'
               color='secondaryGray.600'
               fontSize='sm'
               fontWeight='500'>
-              Visitors
+              Headcounts
             </Text>
           </Flex>
         </Flex>
         <Flex align='center'>
-          <Icon as={RiArrowUpSFill} color='green.500' />
-          <Text color='green.500' fontSize='sm' fontWeight='700'>
+          {/* <Icon as={RiArrowUpSFill} color='green.500' /> */}
+          {/* <Text color='green.500' fontSize='sm' fontWeight='700'>
             +2.45%
-          </Text>
+          </Text> */}
         </Flex>
       </Flex>
       <Box h='240px' mt='auto'>
