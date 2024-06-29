@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/horizon-ui-chakra/static/css/main.39486b67.css",
-    "main.js": "/horizon-ui-chakra/static/js/main.249cb960.js",
-    "static/media/Navbar.png": "/horizon-ui-chakra/static/media/Navbar.f96a9f58c491b9acda99.png",
-    "index.html": "/horizon-ui-chakra/index.html",
-    "main.39486b67.css.map": "/horizon-ui-chakra/static/css/main.39486b67.css.map",
-    "main.249cb960.js.map": "/horizon-ui-chakra/static/js/main.249cb960.js.map"
+    "main.css": "/static/css/main.39486b67.css",
+    "main.js": "/static/js/main.983ebd54.js",
+    "static/media/Navbar.png": "/static/media/Navbar.f96a9f58c491b9acda99.png",
+    "index.html": "/index.html",
+    "main.39486b67.css.map": "/static/css/main.39486b67.css.map",
+    "main.983ebd54.js.map": "/static/js/main.983ebd54.js.map"
   },
   "entrypoints": [
     "static/css/main.39486b67.css",
-    "static/js/main.249cb960.js"
+    "static/js/main.983ebd54.js"
   ]
 }
