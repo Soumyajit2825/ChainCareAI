@@ -47,7 +47,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Landing Page Design
+            Patient A
           </Text>
           <Icon
             ms='auto'
@@ -64,7 +64,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Dashboard Builder
+            Patient B
           </Text>
           <Icon
             ms='auto'
@@ -81,7 +81,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Mobile App Design
+            Patient C
           </Text>
           <Icon
             ms='auto'
@@ -98,7 +98,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Illustrations
+            Patient D
           </Text>
           <Icon
             ms='auto'
@@ -115,7 +115,7 @@ export default function Conversion(props) {
             color={textColor}
             fontSize='md'
             textAlign='start'>
-            Promotional LP
+            Patient E
           </Text>
           <Icon
             ms='auto'
